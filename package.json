@@ -18,6 +18,7 @@
     "test:unit": "jest",
     "lint": "standard",
     "prepublish": "babel src -d lib",
+    "prepare": "babel src -d lib",
     "prestorybook": "npm i react-autosuggest autosuggest-highlight",
     "storybook": "start-storybook -p 6006",
     "storybook:build": "build-storybook -c stories",
